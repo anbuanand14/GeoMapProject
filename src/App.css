@@ -1,0 +1,31 @@
+.popupContainer {
+  position: absolute;
+  z-index: 1;
+  top: 300px;
+  left: 300px;
+  width: 350px;
+  height: 150px;
+  padding: 10px;
+  background: rgba(247, 247, 247, 0.7);
+  border-radius: 5px;
+  box-shadow: 10px 10px 50px rgb(0 0 0 / 16%);
+  font-family: Cambria;
+}
+
+.closeBtn {
+  cursor: pointer;
+  background: transparent;
+  border: 0px;
+  padding: 0px;
+  float: right;
+  font-size: 22.5px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+}
+
+.closeBtn :hover {
+  opacity: 1;
+}
